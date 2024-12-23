@@ -1,10 +1,12 @@
 /* 전체 설정 */
 body{
   max-width: 1280px;
-  margin: 20px auto;
-  background-color: beige;
-  font-family: "Noto Sans KR", serif;
-  font-optical-sizing: auto;
+  margin: 100px auto;
+  background-size: cover;
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  font-family: "Gothic A1", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -12,9 +14,25 @@ body{
   font-weight: bold;
 }
 
+.h2, h4{
+  font-family: "Do Hyeon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
 .menu{
   display: flex;
   justify-content: space-between;
+}
+
+.menuC{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .image{
@@ -22,6 +40,10 @@ body{
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.image:active{
+  opacity: 0.5;
 }
 
 /* 런치 메뉴 */
@@ -91,11 +113,11 @@ body{
   overflow: hidden;
 }
 
-.menuJeyuk{
+.menuJaeyuk{
   display: flex;
 }
 
-.jeyuk{
+.jaeyuk{
   width: 350px;
   height: 350px;
   margin: 0 100px 0 0;
@@ -132,8 +154,8 @@ body{
 
 /* 런치 메뉴 오른쪽 아래 */
 .rightBottom{
-  height: 280px;
-  background-color: #F7DDD3;
+  height: 240px;
+  background-color: #DCD2C8;
   padding: 40px;
 }
 
@@ -146,9 +168,8 @@ body{
   text-align: right;
 }
 
-/* 아래 메뉴 */
+/* 아래 전체 설정 */
 .bottom{
-  width: 100%;
   overflow: auto;
   background-color: #F9F6F1;
   padding: 40px;
@@ -157,7 +178,65 @@ body{
 .black{
   width: 220px;
   font-weight: bold;
-  padding: 0 11px;
-  background-color: black;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+  background-color: #35312E;
   color: white;
+}
+
+/* 국/찌개류 메뉴 */
+.Bleft{
+  width: 45%;
+  margin-right: 5px;
+}
+
+.Inline{
+  display: inline; /* 한 줄 */
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuD{
+  display: flex;
+  margin: 20px 0;
+}
+
+.dongtae{
+  margin: auto 50px;
+}
+
+/* 볶음류 메뉴 */
+.Bright{
+  width: 45%;
+  margin-left: 5px;
+}
+.BrightTop{
+  margin-bottom: 70px;
+}
+
+/* 분식류 메뉴 */
+.BrightBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.Brightbox{
+  display: flex;
+}
+
+.BrightBR{
+  margin-bottom: 5px;
+  margin-right: 50px;
+  width: 45%;
+}
+
+.BrightBL{
+  margin-bottom: 5px;
+  width: 45%;
 }

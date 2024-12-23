@@ -44,6 +44,10 @@ body{
   padding: 30px 30px 0 30px;
 }
 
+.one{
+  display: flex;
+}
+
 .rightBottom{
   background-color: #E7DDD3;
   padding: 30px;
