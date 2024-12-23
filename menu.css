@@ -1,0 +1,163 @@
+/* 전체 설정 */
+body{
+  max-width: 1280px;
+  margin: 20px auto;
+  background-color: beige;
+  font-family: "Noto Sans KR", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 런치 메뉴 */
+.top{
+  display: flex;
+}
+
+/* 런치 메뉴 왼쪽 */
+
+.left{
+  width: 45%;
+  overflow: auto;
+  background-color: #2C2825;
+  padding: 10px 30px;
+}
+
+/* 왼쪽 메뉴 글자 흰색 */
+.white{
+  color: white;
+}
+
+/* 이미지 z-index */
+.menuIndex{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.index{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-content: center;
+}
+
+.z1{
+  position: absolute;
+  left: 205px;
+  z-index: 10;
+}
+
+.z2{
+  position: absolute;
+  left: 285px;
+  z-index: 5;
+}
+
+.z3{
+  position: absolute;
+  left: 380px;
+  z-index: 3;
+}
+
+
+/* 오른쪽 메뉴 */
+.right{
+  width: 55%;
+}
+
+/* 런치 메뉴 오른쪽 위 */
+.rightTop{
+  height: 420px;
+  background-color: #F9F6F1;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.menuJeyuk{
+  display: flex;
+}
+
+.jeyuk{
+  width: 350px;
+  height: 350px;
+  margin: 0 100px 0 0;
+}
+
+.menuIndexy{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.indexy{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.z4{
+  position: absolute;
+  z-index: 10;
+}
+
+.z5{
+  position: absolute;
+  top: 80px;
+  z-index: 5;
+}
+
+.z6{
+  position: absolute;
+  top: 160px;
+  z-index: 3;
+}
+
+/* 런치 메뉴 오른쪽 아래 */
+.rightBottom{
+  height: 280px;
+  background-color: #F7DDD3;
+  padding: 40px;
+}
+
+.coldMenu{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.text{
+  text-align: right;
+}
+
+/* 아래 메뉴 */
+.bottom{
+  width: 100%;
+  overflow: auto;
+  background-color: #F9F6F1;
+  padding: 40px;
+}
+
+.black{
+  width: 220px;
+  font-weight: bold;
+  padding: 0 11px;
+  background-color: black;
+  color: white;
+}

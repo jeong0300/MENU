@@ -1,0 +1,51 @@
+body{
+  background-color: beige;
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.menu{
+  width: 1280px;
+}
+
+.img{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.top{
+  display: flex;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  background-color: #2C2825;
+  width: 45%;
+  height: 00px;
+  padding: 30px;
+}
+
+.right{
+  width: 55%;
+}
+
+.rightTop{
+  background-color: #F9F6F1;
+  padding: 30px 30px 0 30px;
+}
+
+.rightBottom{
+  background-color: #E7DDD3;
+  padding: 30px;
+}
+
