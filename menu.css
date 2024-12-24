@@ -6,7 +6,7 @@ body{
   background-image: url("./images/background.png");
   background-repeat: no-repeat;
   font-family: "Gothic A1", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -16,7 +16,7 @@ body{
 
 .h2, h4{
   font-family: "Do Hyeon", serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
 }
 
