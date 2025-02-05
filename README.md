@@ -1,10 +1,7 @@
-<br/><br/>
 
-<div align="center">
-  // 이미지
-</div>
-
-<br/><br/>
+  
+![Image](https://github.com/user-attachments/assets/688a8e62-65d7-43c5-8626-6a62fca0bc05)
+  
 
 # 📄 개발 동기
 
@@ -39,7 +36,9 @@
 # ⚙ 프로젝트 실행 화면
 
 <div align="center">
-  // 이미지
+  
+  ![Image](https://github.com/user-attachments/assets/fb64c618-ef56-490d-b77a-a2bb92ac30cd)
+
 </div>
 
 <br/><br/>
